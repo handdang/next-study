@@ -82,4 +82,10 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         cursor: pointer;
     }
+    main{
+      max-width:1440px;margin:0 auto;
+    }
+    .flexBox{
+        display: flex;flex-direction: row;
+    }
 `;
